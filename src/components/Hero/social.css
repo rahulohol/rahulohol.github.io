@@ -1,0 +1,64 @@
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sci {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.sci li::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  font-size: 5vw;
+  font-weight: 700;
+  transition: 0.5s;
+  opacity: 0;
+}
+.sci li:hover:before {
+  opacity: 0.1;
+  transform: translate(-50%, calc(-50% + 90px));
+  color: #1877f2;
+}
+.sci li a {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+  border-radius: 10px;
+  margin: 20px;
+  font-size: 20px;
+  transform-style: preserve-3d;
+  perspective: 500px;
+  box-shadow: 0 25px 35px rgba(0, 0, 0, 1);
+  transition: 0.25s;
+}
+.sci li a:hover.github {
+  background: #1877f2;
+}
+.sci li a:hover.linkedin {
+  background: #1877f2;
+}
+.sci li a:hover.leetcode {
+  background: #1877f2;
+}
+.sci li a:hover.hackerrank {
+  background: #1877f2;
+}
+.sci li a:hover i {
+  transition: 0.25s;
+  color: #fff;
+}
+.bghover .sci li a:hover.github {
+  background: #1877f2;
+}
