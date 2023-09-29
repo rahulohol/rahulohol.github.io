@@ -1,1 +1,21 @@
-[]
+[ {
+   "title": "Dynamic Blog App",
+      "logo":"https://github.com/rahulohol/rahulohol.github.io/assets/105929105/e9e33c47-1dc4-405f-8405-1ae74ea12cf8",
+  "description": "Blogger is a dynamic blog web application that I developed to provide users with a seamless and feature-packed blogging experience. It's a platform where creators can express themselves and readers can engage with their content. My responsibilities for this project included:",
+  "functions": [
+      "Designed user-friendly account management, including sign-up, login, logout.",
+    "Developed a responsive interface for blog creation, updates, and deletions, with support for dark and light modes.",
+    "Implemented interactive features: comments, likes/dislikes, views, user verification, and follow/unfollow functionality.",
+    "Integrated dynamic pagination for efficient navigation.",
+    "Built a secure backend with Node.js, Express.js, and MongoDB."
+  ],
+    "image": [
+      "https://github.com/rahulohol/rahulohol.github.io/assets/105929105/aba25521-1f0a-4eb0-9a65-bb0a17c9ec2b",
+      "https://github.com/rahulohol/rahulohol.github.io/assets/105929105/8ece8b3f-a8fe-4974-a2ee-81f3f13bc11f",
+   
+      "https://github.com/rahulohol/rahulohol.github.io/assets/105929105/7518d32a-6852-484d-b57e-8193e21d4faf","https://github.com/rahulohol/rahulohol.github.io/assets/105929105/8a2c70ed-b79d-472e-bafa-2bb38f27a0de","https://github.com/rahulohol/rahulohol.github.io/assets/105929105/836710dc-a177-436f-944c-e2683df6528d","https://github.com/rahulohol/rahulohol.github.io/assets/105929105/50cd3c07-2580-4ac3-a5ae-c1378222bdd0","https://github.com/rahulohol/rahulohol.github.io/assets/105929105/3f5bcf83-d346-4b56-bc95-613ea6c23f72","https://github.com/rahulohol/rahulohol.github.io/assets/105929105/949cb240-0d09-4e0d-9bdf-089a69993ff8","https://github.com/rahulohol/rahulohol.github.io/assets/105929105/ab4501e8-1316-4208-b772-899d0e5fd733","https://github.com/rahulohol/rahulohol.github.io/assets/105929105/82a128af-0f32-458b-a530-74f4ceb1b4ac"
+    ],
+    "link_1": "https://yourdailyblogger.netlify.app/",
+    "link_2": "https://github.com/rahulohol/blogger",
+    "techStack": " React | Redux Toolkit | Chakra UI | CSS | Node.js | Express.js | MongoDB "
+  }]
